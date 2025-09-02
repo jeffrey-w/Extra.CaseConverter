@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'CaseConverter/**'
+      - 'Extra.CaseConverter/**'
       - '.github/workflows/docs.yml'
   workflow_dispatch:
 
@@ -28,13 +28,13 @@ jobs:
       - name: Install DocFX
         run: dotnet tool install -g docfx
       - name: Build docs with DocFX
-        working-directory: CaseConverter/docs
+        working-directory: Extra.CaseConverter/docs
         shell: bash
         run: docfx docfx.json
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: CaseConverter/docs/_site
+          path: Extra.CaseConverter/docs/_site
 
   deploy:
     needs: build
