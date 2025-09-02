@@ -1,0 +1,470 @@
+### YamlMime:ManagedReference
+items:
+  - uid: CaseConverter.Instance.TargetCaseSelector
+    commentId: T:CaseConverter.Instance.TargetCaseSelector
+    id: Instance.TargetCaseSelector
+    parent: CaseConverter
+    children:
+      - CaseConverter.Instance.TargetCaseSelector.ToCamel
+      - CaseConverter.Instance.TargetCaseSelector.ToKebab
+      - CaseConverter.Instance.TargetCaseSelector.ToPascal
+      - CaseConverter.Instance.TargetCaseSelector.ToSnake
+      - CaseConverter.Instance.TargetCaseSelector.ToSpace
+      - CaseConverter.Instance.TargetCaseSelector.ToUpperSnake
+    langs:
+      - csharp
+      - vb
+    name: Instance.TargetCaseSelector
+    nameWithType: Instance.TargetCaseSelector
+    fullName: CaseConverter.Instance.TargetCaseSelector
+    type: Class
+    source:
+      id: TargetCaseSelector
+      path: /home/jeff/Repos/CaseConverter/CaseConverter/src/Instance.cs
+      startLine: 80
+    assemblies:
+      - CaseConverter
+    namespace: CaseConverter
+    summary: The <code>TargetCaseSelector</code> class provides a means for indicating the desired case of an input string.
+    example: [ ]
+    syntax:
+      content: public sealed class Instance.TargetCaseSelector
+      content.vb: Public NotInheritable Class Instance.TargetCaseSelector
+    inheritance:
+      - System.Object
+    inheritedMembers:
+      - System.Object.Equals(System.Object)
+      - System.Object.Equals(System.Object,System.Object)
+      - System.Object.GetHashCode
+      - System.Object.GetType
+      - System.Object.ReferenceEquals(System.Object,System.Object)
+      - System.Object.ToString
+  - uid: CaseConverter.Instance.TargetCaseSelector.ToCamel
+    commentId: M:CaseConverter.Instance.TargetCaseSelector.ToCamel
+    id: ToCamel
+    parent: CaseConverter.Instance.TargetCaseSelector
+    langs:
+      - csharp
+      - vb
+    name: ToCamel()
+    nameWithType: Instance.TargetCaseSelector.ToCamel()
+    fullName: CaseConverter.Instance.TargetCaseSelector.ToCamel()
+    type: Method
+    source:
+      id: ToCamel
+      path: /home/jeff/Repos/CaseConverter/CaseConverter/src/Instance.cs
+      startLine: 102
+    assemblies:
+      - CaseConverter
+    namespace: CaseConverter
+    summary: Provides the input supplied to this <code>TargetCaseSelector</code> in camel case.
+    example: [ ]
+    syntax:
+      content: public string ToCamel()
+      return:
+        type: System.String
+        description: A new string.
+      content.vb: Public Function ToCamel() As String
+    overload: CaseConverter.Instance.TargetCaseSelector.ToCamel*
+  - uid: CaseConverter.Instance.TargetCaseSelector.ToPascal
+    commentId: M:CaseConverter.Instance.TargetCaseSelector.ToPascal
+    id: ToPascal
+    parent: CaseConverter.Instance.TargetCaseSelector
+    langs:
+      - csharp
+      - vb
+    name: ToPascal()
+    nameWithType: Instance.TargetCaseSelector.ToPascal()
+    fullName: CaseConverter.Instance.TargetCaseSelector.ToPascal()
+    type: Method
+    source:
+      id: ToPascal
+      path: /home/jeff/Repos/CaseConverter/CaseConverter/src/Instance.cs
+      startLine: 111
+    assemblies:
+      - CaseConverter
+    namespace: CaseConverter
+    summary: Provides the input supplied to this <code>TargetCaseSelector</code> in Pascal case.
+    example: [ ]
+    syntax:
+      content: public string ToPascal()
+      return:
+        type: System.String
+        description: A new string.
+      content.vb: Public Function ToPascal() As String
+    overload: CaseConverter.Instance.TargetCaseSelector.ToPascal*
+  - uid: CaseConverter.Instance.TargetCaseSelector.ToSnake
+    commentId: M:CaseConverter.Instance.TargetCaseSelector.ToSnake
+    id: ToSnake
+    parent: CaseConverter.Instance.TargetCaseSelector
+    langs:
+      - csharp
+      - vb
+    name: ToSnake()
+    nameWithType: Instance.TargetCaseSelector.ToSnake()
+    fullName: CaseConverter.Instance.TargetCaseSelector.ToSnake()
+    type: Method
+    source:
+      id: ToSnake
+      path: /home/jeff/Repos/CaseConverter/CaseConverter/src/Instance.cs
+      startLine: 120
+    assemblies:
+      - CaseConverter
+    namespace: CaseConverter
+    summary: Provides the input supplied to this <code>TargetCaseSelector</code> in snake case.
+    example: [ ]
+    syntax:
+      content: public string ToSnake()
+      return:
+        type: System.String
+        description: A new string.
+      content.vb: Public Function ToSnake() As String
+    overload: CaseConverter.Instance.TargetCaseSelector.ToSnake*
+  - uid: CaseConverter.Instance.TargetCaseSelector.ToUpperSnake
+    commentId: M:CaseConverter.Instance.TargetCaseSelector.ToUpperSnake
+    id: ToUpperSnake
+    parent: CaseConverter.Instance.TargetCaseSelector
+    langs:
+      - csharp
+      - vb
+    name: ToUpperSnake()
+    nameWithType: Instance.TargetCaseSelector.ToUpperSnake()
+    fullName: CaseConverter.Instance.TargetCaseSelector.ToUpperSnake()
+    type: Method
+    source:
+      id: ToUpperSnake
+      path: /home/jeff/Repos/CaseConverter/CaseConverter/src/Instance.cs
+      startLine: 129
+    assemblies:
+      - CaseConverter
+    namespace: CaseConverter
+    summary: Provides the input supplied to this <code>TargetCaseSelector</code> in upper snake case.
+    example: [ ]
+    syntax:
+      content: public string ToUpperSnake()
+      return:
+        type: System.String
+        description: A new string.
+      content.vb: Public Function ToUpperSnake() As String
+    overload: CaseConverter.Instance.TargetCaseSelector.ToUpperSnake*
+  - uid: CaseConverter.Instance.TargetCaseSelector.ToKebab
+    commentId: M:CaseConverter.Instance.TargetCaseSelector.ToKebab
+    id: ToKebab
+    parent: CaseConverter.Instance.TargetCaseSelector
+    langs:
+      - csharp
+      - vb
+    name: ToKebab()
+    nameWithType: Instance.TargetCaseSelector.ToKebab()
+    fullName: CaseConverter.Instance.TargetCaseSelector.ToKebab()
+    type: Method
+    source:
+      id: ToKebab
+      path: /home/jeff/Repos/CaseConverter/CaseConverter/src/Instance.cs
+      startLine: 138
+    assemblies:
+      - CaseConverter
+    namespace: CaseConverter
+    summary: Provides the input supplied to this <code>TargetCaseSelector</code> in kebab case.
+    example: [ ]
+    syntax:
+      content: public string ToKebab()
+      return:
+        type: System.String
+        description: A new string.
+      content.vb: Public Function ToKebab() As String
+    overload: CaseConverter.Instance.TargetCaseSelector.ToKebab*
+  - uid: CaseConverter.Instance.TargetCaseSelector.ToSpace
+    commentId: M:CaseConverter.Instance.TargetCaseSelector.ToSpace
+    id: ToSpace
+    parent: CaseConverter.Instance.TargetCaseSelector
+    langs:
+      - csharp
+      - vb
+    name: ToSpace()
+    nameWithType: Instance.TargetCaseSelector.ToSpace()
+    fullName: CaseConverter.Instance.TargetCaseSelector.ToSpace()
+    type: Method
+    source:
+      id: ToSpace
+      path: /home/jeff/Repos/CaseConverter/CaseConverter/src/Instance.cs
+      startLine: 147
+    assemblies:
+      - CaseConverter
+    namespace: CaseConverter
+    summary: Provides the input supplied to this <code>TargetCaseSelector</code> in space case.
+    example: [ ]
+    syntax:
+      content: public string ToSpace()
+      return:
+        type: System.String
+        description: A new string.
+      content.vb: Public Function ToSpace() As String
+    overload: CaseConverter.Instance.TargetCaseSelector.ToSpace*
+references:
+  - uid: CaseConverter
+    commentId: N:CaseConverter
+    href: CaseConverter.html
+    name: CaseConverter
+    nameWithType: CaseConverter
+    fullName: CaseConverter
+  - uid: System.Object
+    commentId: T:System.Object
+    parent: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+    name: object
+    nameWithType: object
+    fullName: object
+    nameWithType.vb: Object
+    fullName.vb: Object
+    name.vb: Object
+  - uid: System.Object.Equals(System.Object)
+    commentId: M:System.Object.Equals(System.Object)
+    parent: System.Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+    name: Equals(object)
+    nameWithType: object.Equals(object)
+    fullName: object.Equals(object)
+    nameWithType.vb: Object.Equals(Object)
+    fullName.vb: Object.Equals(Object)
+    name.vb: Equals(Object)
+    spec.csharp:
+      - uid: System.Object.Equals(System.Object)
+        name: Equals
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+      - name: (
+      - uid: System.Object
+        name: object
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object
+      - name: )
+    spec.vb:
+      - uid: System.Object.Equals(System.Object)
+        name: Equals
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+      - name: (
+      - uid: System.Object
+        name: Object
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object
+      - name: )
+  - uid: System.Object.Equals(System.Object,System.Object)
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+    parent: System.Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+    name: Equals(object, object)
+    nameWithType: object.Equals(object, object)
+    fullName: object.Equals(object, object)
+    nameWithType.vb: Object.Equals(Object, Object)
+    fullName.vb: Object.Equals(Object, Object)
+    name.vb: Equals(Object, Object)
+    spec.csharp:
+      - uid: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+      - name: (
+      - uid: System.Object
+        name: object
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object
+      - name: ','
+      - name: " "
+      - uid: System.Object
+        name: object
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object
+      - name: )
+    spec.vb:
+      - uid: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+      - name: (
+      - uid: System.Object
+        name: Object
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object
+      - name: ','
+      - name: " "
+      - uid: System.Object
+        name: Object
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object
+      - name: )
+  - uid: System.Object.GetHashCode
+    commentId: M:System.Object.GetHashCode
+    parent: System.Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+    name: GetHashCode()
+    nameWithType: object.GetHashCode()
+    fullName: object.GetHashCode()
+    nameWithType.vb: Object.GetHashCode()
+    fullName.vb: Object.GetHashCode()
+    spec.csharp:
+      - uid: System.Object.GetHashCode
+        name: GetHashCode
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+      - name: (
+      - name: )
+    spec.vb:
+      - uid: System.Object.GetHashCode
+        name: GetHashCode
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+      - name: (
+      - name: )
+  - uid: System.Object.GetType
+    commentId: M:System.Object.GetType
+    parent: System.Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+    name: GetType()
+    nameWithType: object.GetType()
+    fullName: object.GetType()
+    nameWithType.vb: Object.GetType()
+    fullName.vb: Object.GetType()
+    spec.csharp:
+      - uid: System.Object.GetType
+        name: GetType
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+      - name: (
+      - name: )
+    spec.vb:
+      - uid: System.Object.GetType
+        name: GetType
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+      - name: (
+      - name: )
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+    parent: System.Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+    name: ReferenceEquals(object, object)
+    nameWithType: object.ReferenceEquals(object, object)
+    fullName: object.ReferenceEquals(object, object)
+    nameWithType.vb: Object.ReferenceEquals(Object, Object)
+    fullName.vb: Object.ReferenceEquals(Object, Object)
+    name.vb: ReferenceEquals(Object, Object)
+    spec.csharp:
+      - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+      - name: (
+      - uid: System.Object
+        name: object
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object
+      - name: ','
+      - name: " "
+      - uid: System.Object
+        name: object
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object
+      - name: )
+    spec.vb:
+      - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+      - name: (
+      - uid: System.Object
+        name: Object
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object
+      - name: ','
+      - name: " "
+      - uid: System.Object
+        name: Object
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object
+      - name: )
+  - uid: System.Object.ToString
+    commentId: M:System.Object.ToString
+    parent: System.Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+    name: ToString()
+    nameWithType: object.ToString()
+    fullName: object.ToString()
+    nameWithType.vb: Object.ToString()
+    fullName.vb: Object.ToString()
+    spec.csharp:
+      - uid: System.Object.ToString
+        name: ToString
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+      - name: (
+      - name: )
+    spec.vb:
+      - uid: System.Object.ToString
+        name: ToString
+        isExternal: true
+        href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+      - name: (
+      - name: )
+  - uid: System
+    commentId: N:System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+    name: System
+    nameWithType: System
+    fullName: System
+  - uid: CaseConverter.Instance.TargetCaseSelector.ToCamel*
+    commentId: Overload:CaseConverter.Instance.TargetCaseSelector.ToCamel
+    href: CaseConverter.Instance.TargetCaseSelector.html#CaseConverter_Instance_TargetCaseSelector_ToCamel
+    name: ToCamel
+    nameWithType: Instance.TargetCaseSelector.ToCamel
+    fullName: CaseConverter.Instance.TargetCaseSelector.ToCamel
+  - uid: System.String
+    commentId: T:System.String
+    parent: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+    name: string
+    nameWithType: string
+    fullName: string
+    nameWithType.vb: String
+    fullName.vb: String
+    name.vb: String
+  - uid: CaseConverter.Instance.TargetCaseSelector.ToPascal*
+    commentId: Overload:CaseConverter.Instance.TargetCaseSelector.ToPascal
+    href: CaseConverter.Instance.TargetCaseSelector.html#CaseConverter_Instance_TargetCaseSelector_ToPascal
+    name: ToPascal
+    nameWithType: Instance.TargetCaseSelector.ToPascal
+    fullName: CaseConverter.Instance.TargetCaseSelector.ToPascal
+  - uid: CaseConverter.Instance.TargetCaseSelector.ToSnake*
+    commentId: Overload:CaseConverter.Instance.TargetCaseSelector.ToSnake
+    href: CaseConverter.Instance.TargetCaseSelector.html#CaseConverter_Instance_TargetCaseSelector_ToSnake
+    name: ToSnake
+    nameWithType: Instance.TargetCaseSelector.ToSnake
+    fullName: CaseConverter.Instance.TargetCaseSelector.ToSnake
+  - uid: CaseConverter.Instance.TargetCaseSelector.ToUpperSnake*
+    commentId: Overload:CaseConverter.Instance.TargetCaseSelector.ToUpperSnake
+    href: CaseConverter.Instance.TargetCaseSelector.html#CaseConverter_Instance_TargetCaseSelector_ToUpperSnake
+    name: ToUpperSnake
+    nameWithType: Instance.TargetCaseSelector.ToUpperSnake
+    fullName: CaseConverter.Instance.TargetCaseSelector.ToUpperSnake
+  - uid: CaseConverter.Instance.TargetCaseSelector.ToKebab*
+    commentId: Overload:CaseConverter.Instance.TargetCaseSelector.ToKebab
+    href: CaseConverter.Instance.TargetCaseSelector.html#CaseConverter_Instance_TargetCaseSelector_ToKebab
+    name: ToKebab
+    nameWithType: Instance.TargetCaseSelector.ToKebab
+    fullName: CaseConverter.Instance.TargetCaseSelector.ToKebab
+  - uid: CaseConverter.Instance.TargetCaseSelector.ToSpace*
+    commentId: Overload:CaseConverter.Instance.TargetCaseSelector.ToSpace
+    href: CaseConverter.Instance.TargetCaseSelector.html#CaseConverter_Instance_TargetCaseSelector_ToSpace
+    name: ToSpace
+    nameWithType: Instance.TargetCaseSelector.ToSpace
+    fullName: CaseConverter.Instance.TargetCaseSelector.ToSpace

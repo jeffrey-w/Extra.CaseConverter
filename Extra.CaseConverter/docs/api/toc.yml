@@ -1,0 +1,16 @@
+### YamlMime:TableOfContent
+items:
+  - uid: CaseConverter
+    name: CaseConverter
+    type: Namespace
+    items:
+      - uid: CaseConverter.Instance
+        name: Instance
+        type: Class
+      - uid: CaseConverter.Instance.SourceCaseSelector
+        name: Instance.SourceCaseSelector
+        type: Class
+      - uid: CaseConverter.Instance.TargetCaseSelector
+        name: Instance.TargetCaseSelector
+        type: Class
+memberLayout: SamePage

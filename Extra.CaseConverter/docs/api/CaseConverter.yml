@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+  - uid: CaseConverter
+    commentId: N:CaseConverter
+    id: CaseConverter
+    children:
+      - CaseConverter.Instance
+      - CaseConverter.Instance.SourceCaseSelector
+      - CaseConverter.Instance.TargetCaseSelector
+    langs:
+      - csharp
+      - vb
+    name: CaseConverter
+    nameWithType: CaseConverter
+    fullName: CaseConverter
+    type: Namespace
+    assemblies:
+      - CaseConverter
+references:
+  - uid: CaseConverter.Instance
+    commentId: T:CaseConverter.Instance
+    href: CaseConverter.Instance.html
+    name: Instance
+    nameWithType: Instance
+    fullName: CaseConverter.Instance
+  - uid: CaseConverter.Instance.SourceCaseSelector
+    commentId: T:CaseConverter.Instance.SourceCaseSelector
+    parent: CaseConverter
+    href: CaseConverter.Instance.html
+    name: Instance.SourceCaseSelector
+    nameWithType: Instance.SourceCaseSelector
+    fullName: CaseConverter.Instance.SourceCaseSelector
+    spec.csharp:
+      - uid: CaseConverter.Instance
+        name: Instance
+        href: CaseConverter.Instance.html
+      - name: .
+      - uid: CaseConverter.Instance.SourceCaseSelector
+        name: SourceCaseSelector
+        href: CaseConverter.Instance.SourceCaseSelector.html
+    spec.vb:
+      - uid: CaseConverter.Instance
+        name: Instance
+        href: CaseConverter.Instance.html
+      - name: .
+      - uid: CaseConverter.Instance.SourceCaseSelector
+        name: SourceCaseSelector
+        href: CaseConverter.Instance.SourceCaseSelector.html
+  - uid: CaseConverter.Instance.TargetCaseSelector
+    commentId: T:CaseConverter.Instance.TargetCaseSelector
+    parent: CaseConverter
+    href: CaseConverter.Instance.html
+    name: Instance.TargetCaseSelector
+    nameWithType: Instance.TargetCaseSelector
+    fullName: CaseConverter.Instance.TargetCaseSelector
+    spec.csharp:
+      - uid: CaseConverter.Instance
+        name: Instance
+        href: CaseConverter.Instance.html
+      - name: .
+      - uid: CaseConverter.Instance.TargetCaseSelector
+        name: TargetCaseSelector
+        href: CaseConverter.Instance.TargetCaseSelector.html
+    spec.vb:
+      - uid: CaseConverter.Instance
+        name: Instance
+        href: CaseConverter.Instance.html
+      - name: .
+      - uid: CaseConverter.Instance.TargetCaseSelector
+        name: TargetCaseSelector
+        href: CaseConverter.Instance.TargetCaseSelector.html
+  - uid: CaseConverter
+    commentId: N:CaseConverter
+    href: CaseConverter.html
+    name: CaseConverter
+    nameWithType: CaseConverter
+    fullName: CaseConverter

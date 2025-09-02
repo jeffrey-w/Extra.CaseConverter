@@ -1,0 +1,18 @@
+{
+    "CaseConverter": "CaseConverter.yml",
+    "CaseConverter.Instance": "CaseConverter.Instance.yml",
+    "CaseConverter.Instance.Convert(System.String)": "CaseConverter.Instance.yml",
+    "CaseConverter.Instance.SourceCaseSelector": "CaseConverter.Instance.SourceCaseSelector.yml",
+    "CaseConverter.Instance.SourceCaseSelector.FromCamel": "CaseConverter.Instance.SourceCaseSelector.yml",
+    "CaseConverter.Instance.SourceCaseSelector.FromKebab": "CaseConverter.Instance.SourceCaseSelector.yml",
+    "CaseConverter.Instance.SourceCaseSelector.FromPascal": "CaseConverter.Instance.SourceCaseSelector.yml",
+    "CaseConverter.Instance.SourceCaseSelector.FromSnake": "CaseConverter.Instance.SourceCaseSelector.yml",
+    "CaseConverter.Instance.SourceCaseSelector.FromSpace": "CaseConverter.Instance.SourceCaseSelector.yml",
+    "CaseConverter.Instance.TargetCaseSelector": "CaseConverter.Instance.TargetCaseSelector.yml",
+    "CaseConverter.Instance.TargetCaseSelector.ToCamel": "CaseConverter.Instance.TargetCaseSelector.yml",
+    "CaseConverter.Instance.TargetCaseSelector.ToKebab": "CaseConverter.Instance.TargetCaseSelector.yml",
+    "CaseConverter.Instance.TargetCaseSelector.ToPascal": "CaseConverter.Instance.TargetCaseSelector.yml",
+    "CaseConverter.Instance.TargetCaseSelector.ToSnake": "CaseConverter.Instance.TargetCaseSelector.yml",
+    "CaseConverter.Instance.TargetCaseSelector.ToSpace": "CaseConverter.Instance.TargetCaseSelector.yml",
+    "CaseConverter.Instance.TargetCaseSelector.ToUpperSnake": "CaseConverter.Instance.TargetCaseSelector.yml"
+    }
