@@ -21,10 +21,10 @@ internal class CamelAndPascalCaseCompiler : ICompiler
               .Aggregate(
                    new StringBuilder(
                        _pascal
-                           ? input
+                           ? Convert(input.First())
+                           : input
                             .First()
-                            .ToLower()
-                           : Convert(input.First())),
+                            .ToLower()),
                    (builder, s) => builder.Append(Convert(s)),
                    builder => builder.ToString());
     }
